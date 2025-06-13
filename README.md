@@ -2,6 +2,16 @@
 
 <!-- [TODO] agregar descripción --> 
 
+## 🛑 Información importante
+
+Este repositorio forma parte de una practica de la materia Arquitectura de Software de Ingenieria de Software UAZ. El codigo fue tomado del (Repositorio original)[https://gitlab.com/tareas-arquitectura-de-software-curso/microservicios/docker-microservicios.git].
+
+Ademas de seguir las instrucciones, se debe asegurar contar con lo siguiente:
+
+- En el directorio del notificador se debera agregar un archivo .env con los siguientes datos:
+    - TOKEN
+    - CHAT_ID
+
 ## Estructura del proyecto
 
 Este repositorio contiene los siguientes directorios y archivos:
@@ -32,53 +42,11 @@ Este repositorio contiene los siguientes directorios y archivos:
 
 Descarga el código del repositorio utilizando el siguiente comando:
 
-`git clone https://gitlab.com/tareas-arquitectura-de-software-curso/microservicios/docker-microservicios.git`
+`git clone https://github.com/kekewicho/docker-microservicios.git`
 
 Ingresa a la carpeta del proyecto:
 
 `cd docker-microservicios`
-
-Descarga el código fuente de los microservicios y componentes del sistema:
-
-`git submodule update --init --recursive`
-
-## Configuración
-
-Antes de arrancar el sistema deberás realizar las siguientes modificaciones en los archivos de configuración. 
-
-> identifica la IP de tu máquina y reemplazala por el valor actual.
-
-### Gestor de clientes
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Cliente
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Notificador
-
-Accede al archivo `notificador/settings.ini` y actualiza las variables `TOKEN` y `CHAT_ID`:
-
-```bash
-TOKEN = <TELEGRAM_TOKEN>
-CHAT_ID = <TELEGRAM_CHAT_ID>
-```
-
-> puedes consultar el siguiente [enlace](https://medium.com/@goyoregalado/bots-de-telegram-en-python-134b964fcdf7) 
-> para conocer más acerca del `TOKEN` y `CHAT_ID` de telegram.
-
-### Pagos
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Reporteador
-
-Para este microservicio no hay que realizar alguna configuración
-
-### Gateway
-
-Para este componente no hay que realizar alguna configuración
 
 ## Ejecución
 
